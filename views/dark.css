@@ -1,0 +1,78 @@
+p{
+  font-size: small;
+  color:red
+}
+body {
+  background: #2c3e50;
+  background: -webkit-linear-gradient(to right, #093958, #2c3e50);
+  background: linear-gradient(to right, #093958, #2c3e50);
+  color: rgb(189, 179, 179);
+}
+
+.main {
+  width: fit-content;
+  margin: auto;
+  margin-top: 8%;
+
+
+}
+.div_class{
+  padding : 4rem;
+  border: #123344 2px solid;
+  background-color: #123344 ;
+}
+
+input[type=email] {
+  padding: 0.5rem;
+  display: block;
+  margin: 0.5rem 0;
+  border-radius: 0.6rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  width: 100%;
+
+
+}
+
+input[type=email]:focus {
+  outline: 2px solid blue;
+}
+
+
+.password {
+  padding: 0.5rem;
+  display: block;
+  margin: 0.5rem 0;
+  border-radius: 0.6rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  width: 100%;
+
+}
+
+.password:focus {
+  outline: 2px solid blue;
+}
+
+#SignupSubmit, #LoginSubmit {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  margin: 0 auto;
+  outline: none;
+  margin-top: 1rem;
+  background-color: rgb(50, 50, 100);
+  color: rgb(189, 179, 179);
+  cursor: pointer;
+}
+
+#SignupSubmit:hover, #LoginSubmit:hover {
+  background-color: rgb(172, 126, 126);
+  color: black;
+}
+
+.buttondiv{
+  text-align: center;
+}
